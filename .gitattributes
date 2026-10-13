@@ -1,0 +1,34 @@
+# 统一换行符，避免 Windows/Linux 间 CRLF 警告
+* text=auto
+
+# 明确声明为二进制，避免 Git 误判与损坏
+*.zip binary
+*.rar binary
+*.7z binary
+*.pdf binary
+*.ppt binary
+*.pptx binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.mkv binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.so binary
+*.pth binary
+*.onnx binary
+*.ckpt binary
+*.h5 binary
+*.pt binary
+*.vdi binary
+*.vds binary

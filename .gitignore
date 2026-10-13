@@ -1,0 +1,133 @@
+# ============================================================
+# 大文件排除（>100MB，超过 GitHub 单文件 100MB 硬限制）
+# 这些文件本地保留，不上传到 GitHub。
+# 如需获取，请通过 README 中的联系方式索取。
+# ============================================================
+
+# 1.1 学期
+/1.1/近代史/中国近现代史.zip
+/1.1/大一上期末/期末复习.zip
+/1.1/习概/习概期末复习/课件/04.第四讲 坚持以人民为中心.pptx
+/1.1/大英/英语pre.pptx
+/1.1/大英/英语pre part1(1).pptx
+/1.1/大英/英语pre part1.pptx
+/1.1/线性代数/线代书等/线代及其应用第五版中文(1).pdf
+/1.1/大物上/大学物理(1).pdf
+/1.1/大物上/大学物理学（第4版）力学、热学 (张三慧) .pdf
+
+# 1.2 学期
+/1.2/数字电路基础/《数字基础-第十版-英文影印》.pdf
+/1.2/数字电路基础/数电10中.pdf
+/1.2/数字电路基础/Digital Fundamentals, Global Edition (Thomas L. Floyd) (Z-Library).pdf
+/1.2/数字电路基础/数字电子技术（第十一版） (（美）Thomas L. Floyd) (Z-Library).pdf
+/1.2/思想道德与法治/【2023年版】思想道德与法制.pdf
+/1.2/大物下/大学物理学（第4版）电磁学、光学、量子物理 (张三慧) .pdf
+
+# ============================================================
+# 大型模型权重 / 数据集（>50MB，避免仓库臃肿）
+# ============================================================
+*.pth
+*.onnx
+*.ckpt
+*.h5
+*.pt
+
+# ============================================================
+# 构建产物 / 缓存 / 临时文件
+# ============================================================
+# Visual Studio
+.vs/
+*.ipch
+*.pch
+*.db
+*.opendb
+*.suo
+*.sdf
+*.opensdf
+*.user
+*.ncb
+*.aps
+*.idb
+*.pdb
+*.ilk
+*.exp
+*.tlog
+*.lastbuildstate
+
+# 编译产物 / 二进制
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.manifest
+*.dep
+*.intermediate.manifest
+*.res
+*.cache
+
+# 构建目录
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+build/
+.vscode/
+.idea/
+*.sln
+*.vcproj
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+_UpgradeReport_Files/
+Backup/
+
+# Vivado / ISE / FPGA 工程生成目录
+*.Xil/
+*.cache/
+*.runs/
+*.ip_user_files/
+*.sim/
+*.gen/
+*.hbs/
+*.hw/
+*.hw_export/
+**/*.srcs/*/ip/
+**/*.srcs/ip/
+*.vdi
+*.vds
+*.backup.vdi
+*.backup.vds
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# LaTeX 辅助文件
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
